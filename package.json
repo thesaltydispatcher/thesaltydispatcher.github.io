@@ -1,0 +1,20 @@
+{
+  "name": "thesaltydispatcher.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+"scripts": {
+  "start": "hugo server --buildDrafts --cleanDestinationDir",
+  "hugo": "hugo",
+  "hugo:build": "hugo --minify"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "hugo-bin": {
+    "buildTags": "extended"
+  },
+  "dependencies": {
+    "hugo-bin": "^0.136.0"
+  }
+}

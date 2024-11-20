@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Alexander Noxley">
+    <title>{{ .Site.Title }}</title>
+  </head>
+  <body>
+    <div>
+      {{- block "main" . -}}{{- end -}}
+    </div>
+  </body>
+  <!-- Experimental footer from .yaml file for email -->
+  <footer>
+    <div>
+      {{ .Site.Params.contact.email}}
+    </div>
+  </footer>
+</html>

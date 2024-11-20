@@ -1,0 +1,11 @@
+baseURL: https://thesaltydispatcher.github.io/
+...
+params:
+   contact:
+         email: alex.noxley@proton.me
+languageCode: en-us
+title: the salty dispatcher
+module:
+   hugoVersion:
+    extended: true
+    min: "0.112.0"
